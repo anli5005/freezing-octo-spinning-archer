@@ -14,16 +14,28 @@
     
       body {
         background-color: white;
+        padding: 2em 2em 2em 2em;
       }
       
       .spinning-wheel {
         color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
       }
     
     </style>
     
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    
     <script>
+    
+    $(document).ready(function () {
+      $(document).mousemove(function (event) {
+        $(".spinning-wheel").css({top: event.pageY, left: event.pageX})
+      });
+    });
+    
     </script>
     
   </head>
