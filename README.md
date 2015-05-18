@@ -1,2 +1,2 @@
-# freezing-octo-spinning-archer
-I was bored, so I decided to make these spinning Font Awesome icons.
+# Spinning Wheel - Web
+This is just a spinning wheel of death on the web.
